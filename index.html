@@ -1,0 +1,157 @@
+<html>
+    <head>
+<link rel="stylesheet" href="css/all.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+<section id="loding">
+    <div class="spinner">
+        <div class="rect1"></div>
+        <div class="rect2"></div>
+        <div class="rect3"></div>
+        <div class="rect4"></div>
+        <div class="rect5"></div>
+      </div>
+
+</section>
+
+        <section class="sid-nav min-vh-100 position-fixed d-flex top-0">
+            <div class="sidpardetails d-flex flex-column justify-content-between min-vh-100 p-4">
+                <div class="meal-links ">
+                    <ul>
+                        <li class="pt-2"> <a href="#serch" >Search</a></li>
+                        <li  class="pt-2"> <a href="#Categories" >Categories</a></li>
+                        <li  class="pt-2"> <a href="#Area" >Area</a></li>
+                        <li  class="pt-2"> <a href="#Ingredients" >Ingredients</a></li>
+                        <li  class="pt-2"> <a href="#ContactUs" >Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="sid-link">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-solid fa-globe"></i>
+                    <p>Copyright Â© 2019 All Rights Reserved.</p>
+                </div>
+
+            </div>
+            <div class="sidparimg  d-flex flex-column justify-content-between min-vh-100 p-2">
+                <img  src="img/logo.png" alt="">
+                <i class="fa-solid open-close-icon fa-2x fa-align-justify"></i>
+                <div>
+                    <i class="fa-solid fa-globe d-block"></i>
+                    <i class="fa-solid fa-share-nodes"></i>
+                </div>
+            
+            </div>
+        </section>
+
+        <section id="oben" class="d-block">
+            <div class="container pt-4">
+                <div class="row py-5 g-4" id="rowData">
+                  
+                </div> 
+            </div>
+        </section>
+
+        <section id="detaails" class="details d-none ">
+            <div class="container">
+                <div class="row py-4" id="detailss">
+                    
+                  
+                </div>
+            </div>
+        </section>
+
+        <section id="serch" class="d-none">
+            <div class="container w-75">
+                <div class="row py-4">
+                    <div class="col-md-6">
+                        <input type="text" id="nameserch" class="form-control bg-transparent text-white" placeholder="Search By Name">
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text" id="nameserchf" class="form-control bg-transparent text-white" placeholder="Search By First Letter">
+                    </div>
+                     
+                </div>
+            </div>
+            <div class="container pt-4 w-75 ">
+                <div class="row py-5 g-4   " id="rowserch">
+                   
+                </div> 
+            </div>
+            
+
+        </section>
+
+         <section id="Categories" class="d-none">
+            <div class="container pt-4">
+                <div class="row py-5 g-4 " id="Categorie">
+                  
+                </div> 
+            </div>
+        </section>
+
+         <section id="Area" class="d-none">
+            <div class="container pt-4 w-75">
+                <div class="row py-5 g-4 " id="rowarea">
+                    
+                </div> 
+            </div>
+        </section>
+
+        <section id="Ingredients" class="d-none">
+            <div class="container pt-4 w-75">
+                <div class="row py-5 g-4  " id="rowingrediens">
+                   
+                </div> 
+            </div>
+        </section>
+
+        <section id="ContactUs" class="d-none">
+            <div class="container w-75 text-center mt-5 pt-5">
+                <div class="row py-4 mt-5 pt-5">
+                    <div class="col-md-6 pt-3">
+                        <input id="nameinput" type="text" class="form-control bg-white text-black" placeholder="Enter Your Name">
+                        <div id="alertname" class="alert alert-danger w-100 mt-2 d-none ">Special characters and numbers not allowed</div>
+                    </div>
+                    <div class="col-md-6 pt-3">
+                        <input id="emailinput" type="email" class="form-control bg-white text-black" placeholder="Enter Your Email">
+                        <div id="alertemaill" class="alert alert-danger w-100 mt-2 d-none "> Email not valid *exemple@yyy.zzz</div>
+                    </div>
+                    <div class="col-md-6 pt-3">
+                        <input id="phoneinput" type="text" class="form-control bg-white text-black" placeholder="Enter Your Phone">
+                        <div id="alertphone"  class="alert alert-danger w-100 mt-2 d-none">Enter valid Phone Number</div>
+                    </div>
+                    <div class="col-md-6 pt-3">
+                        <input id="ageinput" type="text" class="form-control bg-white text-black" placeholder="Enter Your Age">
+                        <div id="alertage"  class="alert alert-danger w-100 mt-2 d-none">Enter valid age</div>
+                    </div>
+                    <div class="col-md-6 pt-3">
+                        <input id="passwordinput" type="password" class="form-control bg-white text-black" placeholder="Enter Your Password">
+                        <div id="alertpassword" class="alert alert-danger w-100 mt-2 d-none">Enter valid password *Minimum eight characters, at least one letter and one number:*</div>
+                    </div>
+                    <div class="col-md-6 pt-3">
+                        <input id="repaswordinput" type="password" class="form-control bg-white text-black" placeholder="Repassword">
+                        <div id="alertrepassword" class="alert alert-danger w-100 mt-2 d-none ">Enter valid repassword</div>
+                    </div>
+                </div>
+                <div>
+                    <button id="btnsubmit" disabled class="btn btn-outline-danger px-2 mt-3">Submit</button>
+                </div>
+            </div>
+        </section>
+       
+
+
+
+
+
+
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/jquery-3.6.3.js"></script>
+        <script src="js/indix.js"></script>
+    </body>
+</html>
